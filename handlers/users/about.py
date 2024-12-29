@@ -5,5 +5,5 @@ from aiogram.filters import Command
 #about commands
 @dp.message(Command("about"))
 async def about_commands(message:Message):
-    await message.answer("nech narsa")
+    await message.answer("hech narsa")
 
